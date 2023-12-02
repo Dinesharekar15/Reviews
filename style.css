@@ -44,7 +44,7 @@ h2{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 10px;
     padding: 30px;
-    width: 620px;
+    /* width: 620px; */
     position: relative;
     text-align: center;
     
@@ -106,4 +106,15 @@ button i:hover{
 
     background: hsl(205, 78%, 60%);
     transition: .3s;
+}
+@media(max-width:800px){
+    h2{
+        font-size: 30px;
+    }
+    .container{
+        width: 80%;
+    }
+    #info{
+        line-height: 20px;
+    }
 }
